@@ -1,0 +1,72 @@
+.section_gallarey {
+    width: 100%;
+    padding: 5rem 0;
+}
+.gallarey_container {
+    max-width: 1440px;
+    width: 97%;
+    margin: 0 auto;
+}
+.gallarey {
+    width: 100%;
+    text-align: center;
+}
+.gallarey_red {
+    display: block;
+    width: 60px;
+    background-color: red;
+    height: 5px;
+    margin: 0 auto;
+}
+.gallarey_title {
+    font-size: 50px;
+    margin: 2rem 0;
+    text-transform: uppercase;
+}
+.gallarey_cards {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.gallarey_card {
+    width: 300px;
+    height: 300px;
+}
+.gallarey_card img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 992px) {
+    .gallarey_card {
+        width: 200px;
+        height: 200px;
+    }
+    .gallarey_title {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .gallarey_title {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .gallarey_card {
+        width: 350px;
+        height: 350px;
+    }
+    .gallarey_title {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .gallarey_card {
+        width: 260px;
+        height: 260px;
+    }
+    .gallarey_title {
+        font-size: 25px;
+    }
+}

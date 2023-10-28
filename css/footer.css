@@ -1,0 +1,110 @@
+.section_footer {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: #150303;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+.footer_cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.footer_card {
+    width: 330px;
+}
+.footer_card1 {
+    text-align: center;
+}
+.phone_location {
+    color: red;
+    font-size: 1.5rem;
+    margin: 0.5rem 0 1.5rem 0;
+}
+.footer_title {
+    color: white;
+}
+.f_card_text {
+    color: #675e5e;
+    margin-top: 1rem;
+    line-height: 27px;
+    font-size: 1rem;
+}
+.f_card_link {
+    margin-top: 0.9rem;
+    font-size: 1rem;
+}
+.f_card_link a {
+    color: #675e5e;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.f_card_link a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.footer_link {
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.footer_link a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #675e5e;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    /* transition: all 1s ease; */
+}
+.footer_link a:hover i {
+    transform: rotateY(360deg);
+    transition: all 1s ease;
+}
+.footer_link a:nth-child(1):hover {
+    color: rgb(2, 2, 59);
+}
+.footer_link a:nth-child(2):hover {
+    color: rgb(245, 40, 13);
+}
+.footer_link a:nth-child(3):hover {
+    color: rgb(2, 2, 59);
+}
+.footer_link a:nth-child(4):hover {
+    color: rgb(23, 23, 249);
+}
+.footer_link a:nth-child(5):hover {
+    color: rgb(245, 40, 13);
+}
+.footer_link a:nth-child(6):hover {
+    color: rgb(9, 9, 154);
+}
+@media screen and (max-width: 768px) {
+    .footer_card {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer_cards {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 520px) {
+    .section_footer {
+        height: 110vh;
+    }
+}
